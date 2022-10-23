@@ -13,7 +13,7 @@ import pickle
 from os                                 import path
 from subprocess                         import getoutput, getstatusoutput
 
-WCLRanks_path = "../WCLRanks"
+WCLRanks_path = "./WCLRanks"
 WCLRanks_toc = "WCLRanks.toc"
 toc = open("%s/%s" % (WCLRanks_path, WCLRanks_toc), "w+")
 
